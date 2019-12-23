@@ -41,8 +41,7 @@ p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
 }
-
-p span.i2{
-	text-indent: -1em;
-	padding-left: 3em;
+/* Indent the first line of stanzas. */
+[epub|type~="z3998:poem"] p > span:first-child{
+	text-indent: 0;
 }
