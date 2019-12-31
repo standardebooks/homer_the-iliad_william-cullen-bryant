@@ -33,15 +33,6 @@ span[epub|type~="subtitle"]{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] + p{
-	text-indent: 0;
-}
-
-p span.i1{
-	text-indent: -1em;
-	padding-left: 2em;
-}
-
 /* Indent the first line of stanzas. */
 [epub|type~="z3998:poem"] p > span:first-child{
 	text-indent: 0;

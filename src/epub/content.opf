@@ -45,7 +45,7 @@
 		<meta property="se:subject">Fantasy</meta>
 		<dc:description id="description">This epic poem follows a greek warrior who refuses to give up his prize of war.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Dated back to the archaic period of Classical Antiquity, &lt;i&gt;The Iliad&lt;/i&gt; is one of the oldest works of Western literature. Homer’s epic poem belongs in a collection called the Epic Cycle, and it was originally written in ancient Greek and utilized a dactylic hexameter rhyming scheme. Although this rhyming scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan (Editor Eric) humorously described it, resemble “pumpkins rolling on a barn floor.” Samuel Butler avoided this problem by converting his translation into modern prose.&lt;/p&gt;
+			&lt;p&gt;Dated back to the archaic period of Classical Antiquity, &lt;i&gt;The Iliad&lt;/i&gt; is one of the oldest works of Western literature. Homer’s epic poem belongs in a collection called the Epic Cycle, and it was originally written in ancient Greek and utilized a dactylic hexameter rhyming scheme. Although this rhyming scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan (Editor Eric) humorously described it, resemble “pumpkins rolling on a barn floor.” William Cullen Bryant avoided this problem by converting his translation into blank verse.&lt;/p&gt;
 			&lt;p&gt;This epic poem begins with the Achaean army sacking the city of Chryse and capturing two maidens as prizes of war. One of the maidens named Chryseis is given to Agamemnon, the leader of the Achaeans, and the other maiden named Briseis was given to the army’s best warrior, Achilles. Chryseis’ father, the city’s priest, prays to the god Apollo and asks for a plague on the Achaean army. To stop this plague, Agamemnon returns Chryseis to her father, but then orders Achilles to give him Briseis as compensation. Achilles refuses.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
@@ -67,6 +67,7 @@
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist-1">Anne-Louis Girodet Roussy-Trioson</dc:contributor>
 		<meta property="file-as" refines="#artist-1">Roussy-Trioson, Anne-Louis Girodet</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist-1">https://en.wikipedia.org/wiki/Anne-Louis_Girodet_de_Roussy-Trioson</meta>
