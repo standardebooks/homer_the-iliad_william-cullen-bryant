@@ -37,3 +37,7 @@ span[epub|type~="subtitle"]{
 [epub|type~="z3998:poem"] p > span:first-child{
 	text-indent: 0;
 }
+
+abbr.era{
+	font-variant: all-small-caps;
+}
