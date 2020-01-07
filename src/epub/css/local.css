@@ -41,3 +41,8 @@ span[epub|type~="subtitle"]{
 abbr.era{
 	font-variant: all-small-caps;
 }
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
