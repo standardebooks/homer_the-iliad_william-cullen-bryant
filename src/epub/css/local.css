@@ -29,10 +29,6 @@ span[epub|type~="subtitle"]{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 /* Indent the first line of stanzas. */
 [epub|type~="z3998:poem"] p > span:first-child{
 	text-indent: 0;
