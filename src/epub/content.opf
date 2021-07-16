@@ -43,6 +43,8 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh85137975</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">The epic poem which follows a Greek warrior who refuses to give up his prize of war.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The &lt;i&gt;Iliad&lt;/i&gt; is one of the oldest works of Western literature, dating back to classical antiquity. &lt;a href="https://standardebooks.org/ebooks/homer"&gt;Homer’s&lt;/a&gt; epic poem belongs in a collection called the Epic Cycle, which includes the &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant"&gt;Odyssey&lt;/a&gt;&lt;/i&gt;. It was originally written in ancient Greek and utilized a dactylic hexameter rhyme scheme. Although this rhyme scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan humorously describes it, resembles “pumpkins rolling on a barn floor.” William Cullen Bryant avoided this problem by converting his translation into blank verse.&lt;/p&gt;
