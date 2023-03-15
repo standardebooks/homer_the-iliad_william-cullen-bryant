@@ -1,6 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* Bridgehead */
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
@@ -9,11 +10,12 @@
 	text-indent: 0;
 }
 
-/* Override text-align: initial; imposed by the parent z3998:poem style */
-[epub|type~="bridgehead"]{
-	text-align: justify !important;
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"]{
+	text-align: justify;
 }
+/* End Bridgehead */
 
+/* Poem */
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -37,6 +39,7 @@
 [epub|type~="z3998:poem"] header + p > span:first-child{
 	text-indent: -1em;
 }
+/* End poem */
 
 footer{
 	margin-top: 1em;
