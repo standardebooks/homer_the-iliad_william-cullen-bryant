@@ -39,6 +39,10 @@
 [epub|type~="z3998:poem"] header + p > span:first-child{
 	text-indent: -1em;
 }
+
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
+}
 /* End poem */
 
 footer{
