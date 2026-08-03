@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/homer/the-iliad/william-cullen-bryant</dc:identifier>
 		<dc:date>2020-01-29T23:16:03Z</dc:date>
@@ -45,11 +45,11 @@
 		<meta property="schema:genre">Poetry</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:description id="description">The epic poem which follows a Greek warrior who refuses to give up his prize of war.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The epic poem which follows a Greek warrior who refuses to give up his prize of war.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;The &lt;i&gt;Iliad&lt;/i&gt; is one of the oldest works of Western literature, dating back to classical antiquity. &lt;a href="https://standardebooks.org/ebooks/homer"&gt;Homer’s&lt;/a&gt; epic poem belongs in a collection called the Epic Cycle, which includes the &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant"&gt;Odyssey&lt;/a&gt;&lt;/i&gt;. Written in an early literary dialect of ancient Greek, both poems were originally composed in dactylic hexameters. This meter is beautiful in the original but can sound awkward in modern English; Eric McMillan humorously described it as resembling “pumpkins rolling on a barn floor.” In the translation presented here, William Cullen Bryant avoids the problem by using iambic pentameter, a more familiar meter for verse in English.&lt;/p&gt;
 			&lt;p&gt;This epic poem begins with the Achaean army sacking the city of Chryse and capturing two maidens as prizes of war. One of the maidens, Chryseis, is given to Agamemnon, the leader of the Achaeans, and the other maiden, Briseis, was given to the army’s best warrior, Achilles. Chryseis’ father, the city’s priest, prays to the god Apollo and asks for a plague on the Achaean army. To stop this plague, Agamemnon returns Chryseis to her father, but then orders Achilles to give him Briseis as compensation. Achilles refuses.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://archive.org/details/iliadofhomer00homeiala</dc:source>
 		<meta property="schema:wordCount">155800</meta>
