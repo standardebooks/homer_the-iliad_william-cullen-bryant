@@ -31,7 +31,7 @@
 		<dc:title id="title">The Iliad</dc:title>
 		<meta property="file-as" refines="#title">Iliad, The</meta>
 		<dc:subject id="subject-1">Classical literature</dc:subject>
-		<dc:subject id="subject-2">Epic poetry, Greek -- Translations into English</dc:subject>
+		<dc:subject id="subject-2">Epic poetry, Greek--Translations into English</dc:subject>
 		<dc:subject id="subject-3">Achilles (Mythological character)</dc:subject>
 		<dc:subject id="subject-4">Trojan War</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
